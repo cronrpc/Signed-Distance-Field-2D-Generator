@@ -1,5 +1,7 @@
 # Signed-Distance-Field-2D-Generator
 
+Generates Signed Distance Fields (SDF) and allows merging multiple SDFs. Useful for 2D-style face rendering as well as cloud rendering.
+
 ## Algorithm and Description
 
 Reference:
