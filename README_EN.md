@@ -1,16 +1,17 @@
 # Signed-Distance-Field-2D-Generator
 
-## 算法以及描述
+## Algorithm and Description
 
-参考：
+Reference:
+[https://cronrpc.github.io/zh/posts/signed-distance-field/](https://cronrpc.github.io/zh/posts/signed-distance-field/)
 
-https://cronrpc.github.io/zh/posts/signed-distance-field/
+## How to Use
 
-## 使用方式：
-
-首先获取几张bit图：
+First, prepare a few bitmap images:
 
 ![alt text](images/compose_origin.png)
+
+Then run the script:
 
 ```
 $ python fast_edt.py demo/*.png
@@ -24,17 +25,17 @@ Saved SDF to demo/g_sdf16.png
 Saved SDF to demo/h_sdf16.png
 ```
 
-生成的SDF图片：
+Here’s what the generated SDF images look like:
 
 ![alt text](images/compose_origin_sdf.png)
 
-合并SDF图：
+Next, you can merge multiple SDF images:
 
 ```
 $ python compose_multiple.py demo/*_sdf16.png
-合成完成: output8.png，合并了 8 张图片
+Composition done: output8.png, merged 8 images
 ```
 
-查看效果：
+Check out the result:
 
 ![alt text](images/compose_origin_sdf_demo.gif)
