@@ -22,7 +22,7 @@ if __name__ == "__main__":
     parser.add_argument("-u", "--unit", type=int, choices=[8, 16], default=16, help="bit depth (8 or 16)")
     parser.add_argument("-W", "--width", default=2048, type=int, help="image width")
     parser.add_argument("-H", "--height", default=2048, type=int, help="image height")
-    parser.add_argument("-v", "--value", default=32760, type=int, help="gray value")
+    parser.add_argument("-v", "--value", default=32750, type=int, help="gray value")
     parser.add_argument("output", type=str, help="output filename")
     args = parser.parse_args()
 
