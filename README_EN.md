@@ -38,6 +38,10 @@ $ python compose_multiple.py demo/*_sdf16.png
 Composition done: output8.png, merged 8 images
 ```
 
+Output image:
+
+![alt text](images/compose_output_demo.png)
+
 Check out the result:
 
 ![alt text](images/compose_origin_sdf_demo.gif)

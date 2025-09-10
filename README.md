@@ -37,6 +37,10 @@ $ python compose_multiple.py demo/*_sdf16.png
 合成完成: output8.png，合并了 8 张图片
 ```
 
+输出如下：
+
+![alt text](images/compose_output_demo.png)
+
 查看效果：
 
 ![alt text](images/compose_origin_sdf_demo.gif)
