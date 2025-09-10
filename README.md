@@ -2,6 +2,8 @@
 
 生成有符号距离场 Signed Distance Field (SDF)，以及多张SDF的合成。可用于二次元面部渲染以及云层渲染。
 
+[Readme English](README_EN.md)
+
 ## 算法以及描述
 
 参考：
